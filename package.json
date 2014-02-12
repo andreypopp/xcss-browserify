@@ -1,0 +1,39 @@
+{
+  "name": "xcss-browserify",
+  "version": "0.0.0",
+  "description": "xCSS plugin for browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andreypopp/xcss-browserify"
+  },
+  "keywords": [
+    "browserify-plugin",
+    "xcss",
+    "css",
+    "bundler"
+  ],
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreypopp/xcss-browserify/issues"
+  },
+  "homepage": "https://github.com/andreypopp/xcss-browserify",
+  "dependencies": {
+    "through2": "~0.4.1"
+  },
+  "peerDependencies": {
+    "xcss": "~1.1.3"
+  },
+  "devDependencies": {
+    "semver": "~2.2.1",
+    "mocha": "~1.17.1",
+    "jshint": "~2.4.3",
+    "browserify": "~3.28.2",
+    "stream-aggregate": "~0.1.1",
+    "mktemp": "~0.3.4"
+  }
+}
