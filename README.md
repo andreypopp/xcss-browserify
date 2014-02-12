@@ -34,3 +34,4 @@ If you use browserify programatically, then usage is as follows:
     stream.css.pipe(fs.createWriteStream('bundle.css'))
 
 [1]: https://github.com/andreypopp/xcss
+[bp]: https://github.com/substack/node-browserify#plugins
