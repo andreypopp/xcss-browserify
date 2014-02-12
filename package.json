@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/andreypopp/xcss-browserify",
   "dependencies": {
-    "through2": "~0.4.1"
+    "through": "~2.3.4"
   },
   "peerDependencies": {
     "xcss": "~1.1.3"
