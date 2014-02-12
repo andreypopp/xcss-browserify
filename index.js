@@ -78,7 +78,7 @@ function xcssPlugin(browserify, options) {
   }
 
   return browserify;
-};
+}
 
 function composeStylesheet(filenames) {
   var code = filenames
